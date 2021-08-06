@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Anirban Maity</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"> 
+        <script
+            src="https://kit.fontawesome.com/1882c98de5.js"
+            crossorigin="anonymous"
+        ></script>
+        <script defer>
+            function hamburger() {
+                var x = document.getElementById("navbar");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <div class="navbar" id="navbar">
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            
+        </div>
+
+        <div class="container">
+            <!-- HEADER -->
+            <div class="jumbotron">
+                <div class="jumbotron-text">
+                    <h1>Anirban Maity</h1>
+                    <p>Web Developer</p>
+                </div>
+                <div class="jumbotron-social">
+                    <ul class="ul-social">
+                        <li class="li-social-links">
+                            <a
+                                class="social"
+                                href="https://github.com/anirban47"
+                                target="_blank"
+                                ><i class="fab fa-github"></i
+                            ></a>
+                        </li>
+                        <li class="li-social-links">
+                            <a
+                                class="social"
+                                href="https://www.linkedin.com/in/anirban-maity-65b362152/"
+                                target="_blank"
+                                ><i class="fab fa-linkedin"></i
+                            ></a>
+                        </li>
+                        <li class="li-social-links">
+                            <a
+                                class="social"
+                                href="https://www.facebook.com/profile.php?id=100009847275594"
+                                target="_blank"
+                                ><i class="fab fa-facebook"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="down-arrow">
+                    <span
+                        ><a href="#about"
+                            ><i
+                                class="fa fa-chevron-down"
+                                aria-hidden="true"
+                            ></i></a
+                    ></span>
+                </div>
+            </div>
+
+            <!-- ABOUT -->
+            <div class="row orange box-shadow">
+                <div class="main-content">
+                    <div class="content-header">
+                        <a class="anchor" name="about"></a>
+                        About
+                    </div>
+                    <div class="content-body">
+                        <p>
+                            I'm a third year engineering student with a major in
+                            electronics and communication engineering. I'd
+                            describe myself as a passionate developer who loves
+                            coding 👨‍💻 and the web platform.
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECTS -->
+            <div class="row box-shadow">
+                <div class="main-content-lg">
+                    <div class="content-header">
+                        <a class="anchor" name="projects"></a>
+                        Projects
+                    </div>
+                    <div class="content-body">
+                        <!-- CARD #1 -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/250" />
+                            </div>
+                            <div class="project-content">
+                                <h4>Project #1</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.
+                                </p>
+                                <a href="#">Link Text</a>
+                            </div>
+                        </div>
+                        <!-- CARD #2 -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/250" />
+                            </div>
+                            <div class="project-content">
+                                <h4>Project #2</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.
+                                </p>
+                                <a href="#">Link Text</a>
+                            </div>
+                        </div>
+                        <!-- CARD #3 -->
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/250" />
+                            </div>
+                            <div class="project-content">
+                                <h4>Project #3</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.
+                                </p>
+                                <a href="#">Link Text</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="row white box-shadow">
+                <div class="main-content">
+                    <div class="content-header">
+                        <a class="anchor" name="education"></a>
+                        Education
+                    </div>
+                    <div class="content-body">
+                        <!-- EDUCATION 1 -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>
+                                    National Institute of Technology, Jamshedpur
+                                    <br />
+                                    2019 - Present
+                                </h4>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Bachelor of Technology in Electronics and
+                                    Communication Engineering
+                                    <br />
+                                    CGPA: 8.75
+                                </p>
+                            </div>
+                        </div>
+                        <!-- EDUCATION 2 -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>
+                                    Rajendra Vidyalaya, Jamshedpur
+                                    <br />
+                                    2017 - 2019
+                                </h4>
+                            </div>
+                            <div class="card-content">
+                                <p>Class XII (ISC): 93%</p>
+                            </div>
+                        </div>
+
+                        <!-- EDUCATION 3 -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>
+                                    Rajendra Vidyalaya, Jamshedpur
+                                    <br />
+                                    2004 - 2017
+                                </h4>
+                            </div>
+                            <div class="card-content">
+                                <p>Class X (ICSE): 95.33%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SKILLS -->
+            <div class="row box-shadow">
+                <div class="side-content"></div>
+                <div class="main-content">
+                    <div class="content-header">
+                        <a class="anchor" name="skills"></a>
+                        Skills
+                    </div>
+                    <div class="content-body">
+                        <ul class="ul-skills">
+                            <li class="li-skills">Javascript</li>
+                            <li class="li-skills">HTML</li>
+                            <li class="li-skills">CSS</li>
+                            <li class="li-skills">React</li>
+                            <li class="li-skills">Node.js</li>
+                            <li class="li-skills">C++</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="side-content"></div>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="row orange">
+                <div class="side-content"></div>
+                <div class="main-content">
+                    <div class="content-header">
+                        <a class="anchor" name="contact"></a>
+                        Contact Me
+                    </div>
+                    <div class="contact content-body">
+                        <form
+                            method="POST"
+                            action="https://formspree.io/f/xrgryjao"
+                        >
+                            <input
+                                type="hidden"
+                                name="subject"
+                                value="Contact request from personal website"
+                            />
+                            <input
+                                type="email"
+                                name="_replyto"
+                                placeholder="Your email"
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                placeholder="Your message"
+                                required
+                            ></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="side-content"></div>
+            </div>
+
+            <!-- FOOTER -->
+            <div class="row white">
+                <div class="content-body">
+                    <p>Made with ❤️ by Anirban</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
